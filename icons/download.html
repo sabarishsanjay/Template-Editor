@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head><script type="text/javascript" src="/static/js/analytics.js?v=1498535531.0" charset="utf-8"></script>
+
+<script type="text/javascript">archive_analytics.values.service='wb';archive_analytics.values.server_name='wwwb-app15.us.archive.org';archive_analytics.values.server_ms=409;</script>
+<script type="text/javascript" src="/static/js/wbhack.js?v=1498535531.0" charset="utf-8"></script>
+
+<script type="text/javascript">
+__wbhack.init('');
+</script>
+<link rel="stylesheet" type="text/css" href="/static/css/banner-styles.css?v=1498535531.0" />
+<link rel="stylesheet" type="text/css" href="/static/css/iconochive.css?v=1498535531.0" />
+
+<!-- End Wayback Rewrite JS Include -->
+	
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<meta name="Author" content="Apple Inc."/>
+	<meta name="viewport" content="width=1024"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9"/>
+	<link id="globalheader-stylesheet" rel="stylesheet" href="http://web.archive.org/web/20121228072100cs_/http://images.apple.com/global/nav/styles/navigation.css" type="text/css"/>
+
+	<title>Apple - iPhone 5 - It’s so much more. And so much less, too.</title>
+	<meta name="omni_page" content="iPhone - Features"/>
+	<meta name="Description" content="It’s so thin and so light, yet iPhone 5 features a larger display, a faster chip, the latest wireless technology, an 8MP iSight camera, and more."/>
+	<link rel="stylesheet" href="http://web.archive.org/web/20121228072100cs_/http://images.apple.com/global/styles/base.css" type="text/css"/>
+	<link rel="stylesheet" href="http://web.archive.org/web/20121228072100cs_/http://images.apple.com/v/iphone/c/styles/iphone.css" type="text/css"/>
+	<link rel="stylesheet" href="http://web.archive.org/web/20121228072100cs_/http://images.apple.com/iphone/styles/iphone.css" type="text/css"/>
+	<link rel="stylesheet" href="http://web.archive.org/web/20121228072100cs_/http://images.apple.com/v/iphone/c/styles/features.css" type="text/css"/>
+	<link rel="stylesheet" href="http://web.archive.org/web/20121228072100cs_/http://images.apple.com/iphone/styles/features.css" type="text/css"/>
+	<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/global/scripts/lib/prototype.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/global/scripts/lib/scriptaculous.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/global/scripts/lib/sizzle.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/global/scripts/browserdetect.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/global/scripts/apple_core.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/global/scripts/search_decorator.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/global/ac_base/ac_base.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/global/ac_retina/ac_retina.js" type="text/javascript" charset="utf-8"></script>
+
+	
+<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/global/scripts/lib/event_mixins.js" charset="utf-8"></script>
+<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/global/scripts/swap_view.js" charset="utf-8"></script>
+<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/global/scripts/view_master_tracker.js" charset="utf-8"></script>
+<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/global/scripts/ac_autogallery.js" charset="utf-8"></script>
+
+
+	
+
+
+<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/global/scripts/ac_media.js" charset="utf-8"></script>
+<script>
+
+ACUtils.platterFixes = {
+	isIE8: function () {
+		var match = navigator.userAgent.toLowerCase().match(/msie\D*([\.\d]*)/i);
+		return (match && match[1] && (parseInt(match[1]) <= 8));
+	}
+}
+
+Media.ControlsWidget.prototype._positionSettingsMenuForControl = Media.ControlsWidget.prototype.positionSettingsMenuForControl;
+Media.ControlsWidget.prototype.positionSettingsMenuForControl = function(control) {
+	var correction = ((document.viewport.getDimensions().width - document.body.offsetWidth));
+	this._positionSettingsMenuForControl(control);
+	this.settingsMenu.style.left = (parseInt(this.settingsMenu.style.left) - correction / 2) + 'px';
+}
+
+if (!ACUtils.platterFixes.isIE8()) {
+	ACUtils._cumulativeOffset = ACUtils.cumulativeOffset;
+	ACUtils.cumulativeOffset = function(element) {
+		var offset = ACUtils._cumulativeOffset(element);
+		
+		// if we're in a platter, compensate for the width set on the body
+		offset[0] += ((document.viewport.getDimensions().width - document.body.offsetWidth) / 2);
+		offset.left = offset[0];
+		return offset;
+	}
+}
+
+</script>
+<link rel="stylesheet" href="http://web.archive.org/web/20121228072100cs_/http://images.apple.com/global/styles/ac_media.css"/>
+
+
+	
+<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/global/ac_showonscroll/ac_showonscroll.js" charset="utf-8"></script>
+
+
+
+<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/v/iphone/c/scripts/ac_trackbackground.js" charset="utf-8"></script>
+
+	<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/v/iphone/c/scripts/ac_maskedimage/ac_maskedimage.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/v/iphone/c/scripts/ac_flow/ac_flow.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/v/iphone/c/scripts/track_section_engagement.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/v/iphone/c/scripts/features.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body class="iphone features" id="features"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="/static/js/timestamp.js?v=1498535531.0" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/graph-calc.js?v=1498535531.0" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/auto-complete.js?v=1498535531.0" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/toolbar.js?v=1498535531.0" charset="utf-8"></script>
+
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  min-width:800px !important;
+}
+.wb-autocomplete-suggestions {
+    text-align: left; cursor: default; border: 1px solid #ccc; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+    position: absolute; display: none; z-index: 2147483647; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
+}
+.wb-autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: #333; }
+.wb-autocomplete-suggestion b { font-weight: bold; }
+.wb-autocomplete-suggestion.selected { background: #f0f0f0; }
+</style>
+<div id="wm-ipp" lang="en" style="display:none;direction:ltr;">
+<div style="position:fixed;left:0;top:0;width:100%!important">
+<div id="wm-ipp-inside">
+  <table style="width:100%;">
+    <tbody>
+      <tr>
+	<td id="wm-logo">
+	  <a href="/web/" title="Wayback Machine home page"><img src="/static/images/toolbar/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0" /></a>
+	</td>
+	<td class="c">
+	  <table style="margin:0 auto;">
+	    <tbody>
+	      <tr>
+		<td class="u" colspan="2">
+		  <form target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://www.apple.com/iphone/features/" style="width:400px;" onfocus="this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20121228072100" /><input type="submit" value="Go" /></form>
+		</td>
+		<td class="n" rowspan="2">
+		  <table>
+		    <tbody>
+		      <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+		      <tr class="m">
+			<td class="b" nowrap="nowrap"><a href="http://web.archive.org/web/20121125060038/http://www.apple.com:80/iphone/features" title="25 Nov 2012"><strong>Nov</strong></a></td>
+			<td class="c" id="displayMonthEl" title="You are here: 07:21:00 Dec 28, 2012">DEC</td>
+			<td class="f" nowrap="nowrap"><a href="http://web.archive.org/web/20130130190442/http://www.apple.com/iphone/features/" title="30 Jan 2013"><strong>Jan</strong></a></td>
+		      </tr>
+		      <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+		      <tr class="d">
+			<td class="b" nowrap="nowrap"><a href="http://web.archive.org/web/20121227013937/http://www.apple.com/iphone/features/" title="01:39:37 Dec 27, 2012"><img src="/static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+			<td class="c" id="displayDayEl" style="width:34px;font-size:24px;" title="You are here: 07:21:00 Dec 28, 2012">28</td>
+			<td class="f" nowrap="nowrap"><a href="http://web.archive.org/web/20130104072513/http://www.apple.com/iphone/features/" title="07:25:13 Jan 04, 2013"><img src="/static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+		      </tr>
+		      <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+		      <tr class="y">
+			<td class="b" nowrap="nowrap"><a href="http://web.archive.org/web/20111227183825/http://www.apple.com/iphone/features/" title="27 Dec 2011"><strong>2011</strong></a></td>
+			<td class="c" id="displayYearEl" title="You are here: 07:21:00 Dec 28, 2012">2012</td>
+			<td class="f" nowrap="nowrap"><a href="http://web.archive.org/web/20140104042914/http://www.apple.com/iphone/features/" title="04 Jan 2014"><strong>2014</strong></a></td>
+		      </tr>
+		    </tbody>
+		  </table>
+		</td>
+	      </tr>
+	      <tr>
+		<td class="s">
+		  		  <div id="wm-nav-captures">
+		    		    <a class="t" href="/web/20121228072100*/http://www.apple.com/iphone/features/" title="See a list of every capture for this URL">717 captures</a>
+		    <div class="r" title="Timespan for captures of this URL">13 Oct 2007 - 04 Jul 2017</div>
+		    </div>
+		</td>
+		<td class="k">
+		  <a href="" id="wm-graph-anchor">
+		    <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+		      <canvas id="wm-sparkline-canvas" width="550" height="27" border="0"></canvas>
+		    </div>
+		  </a>
+		</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	</td>
+	<td class="r">
+	  <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://web.archive.org/web/20121228072100/http://www.apple.com/iphone/features/', '', 'height=400,width=600'); return false;" title="Share on Facebook" style="top: 4px; right: 16px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+	  <a href="#" onclick="window.open('https://twitter.com/intent/tweet?text=http://web.archive.org/web/20121228072100/http://www.apple.com/iphone/features/&amp;via=internetarchive', '', 'height=400,width=600'); return false;" title="Share on Twitter" style="bottom:14px;right:16px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+	  <a href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="bottom:14px;right:5px;padding-right:0;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+	  <a href="#close" onclick="__wm.h(event);return false;" style="top:-2px;right:0;padding-right:0;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+	  <a id="wm-expand" class="wm-btn" href="#expand" onclick="__wm.ex(event);return false;"><span class="iconochive-down-solid"></span> <span style="font-size:80%">About this capture</span></a>
+	</td>
+      </tr>
+    </tbody>
+  </table>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none;">
+            <div style="background-color:#353535;color:#aaa;font-weight:bold;text-align:center;"><a class="wm-selector selected" href="javascript:void(0)">COLLECTED BY</a></div>
+    <div style="padding:3px;position:relative;">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/focused_crawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/focused_crawls" target="_new"><span class="wm-title">Internet Archive</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Focused crawls are collections of frequently-updated webcrawl data from narrow (as opposed to broad or wide) web crawls, often focused on a single domain or subdomain.<br />
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/apple.com)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/apple.com" target="_new"><span class="wm-title">apple.com</span></a></div>
+	      </div>
+    </div></div></div></div></div><script type="text/javascript">
+__wm.bt(550,27,25,2,"web","http://www.apple.com/iphone/features/","2012-12-28",1996);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+	<script type="text/javascript">
+	var searchSection = 'iphone';
+	var searchCountry = 'us';
+</script>
+<script src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/global/nav/scripts/globalnav.js" type="text/javascript" charset="utf-8"></script>
+<nav id="globalheader" class="iphone">
+	<!--googleoff: all-->
+	<ul id="globalnav" role="navigation">
+		<li id="gn-apple"><a href="/web/20121228072100/http://www.apple.com/"><span>Apple</span></a></li>
+		<li id="gn-store"><a href="http://web.archive.org/web/20121228072100/http://store.apple.com/"><span>Store</span></a></li>
+		<li id="gn-mac"><a href="/web/20121228072100/http://www.apple.com/mac/"><span>Mac</span></a></li>
+		<li id="gn-ipod"><a href="/web/20121228072100/http://www.apple.com/ipod/"><span>iPod</span></a></li>
+		<li id="gn-iphone"><a href="/web/20121228072100/http://www.apple.com/iphone/"><span>iPhone</span></a></li>
+		<li id="gn-ipad"><a href="/web/20121228072100/http://www.apple.com/ipad/"><span>iPad</span></a></li>
+		<li id="gn-itunes"><a href="/web/20121228072100/http://www.apple.com/itunes/"><span>iTunes</span></a></li>
+		<li id="gn-support" class="gn-last"><a href="/web/20121228072100/http://www.apple.com/support/"><span>Support</span></a></li>
+	</ul>
+	<!--googleon: all-->
+	<div id="globalsearch">
+		<form action="/web/20121228072100/http://www.apple.com/search/" method="post" class="search" id="g-search"><div class="sp-label">
+			<label for="sp-searchtext">Search</label>
+			<input type="text" name="q" id="sp-searchtext" accesskey="s"/>
+		</div></form>
+		<div id="sp-magnify"><div class="magnify-searchmode"></div><div class="magnify"></div></div>
+		<div id="sp-results"></div>
+	</div>
+</nav>
+<script type="text/javascript">
+	AC.GlobalNav.Instance = new AC.GlobalNav();
+</script>
+
+	<div id="top">
+<!-- SiteCatalyst code version: H.8. Copyright 1997-2006 Omniture, Inc. -->
+
+
+	
+
+
+
+
+	
+
+
+<script type="text/javascript">
+/* RSID: */
+
+var s_account="appleglobal,appleusip"
+
+</script>
+
+
+<script type="text/javascript" src="http://web.archive.org/web/20121228072100js_/http://images.apple.com/metrics/scripts/s_code_h.js"></script>
+  
+
+<script type="text/javascript">
+/* Browser Height and Device Type */
+if((s.pageName=AC.Tracking.pageName()) ==='iphone - index/tab') {
+var platform = '';
+
+if (s.u.match(/(kindle|silk-accelerated|android|webos|rim tablet os|windows phone)/i)) {
+	platform = 'mobile other';
+} else if (s.u.match(/windows/i)) {
+	platform = 'windows';
+}else if (s.u.match(/(iphone|ipod)/i)) {
+	platform = 'iphone/ipod touch';
+} else if (s.u.match(/(ipad)/i)) {
+	platform = 'ipad';
+}else if (s.u.match(/Mac OS X/i)){
+		platform = 'Mac';
+} else {
+	platform = 'other';
+}
+s.eVar44=window.innerHeight;
+s.eVar43=platform;
+}
+</script>
+
+<script type="text/javascript">
+
+s.pageName=AC.Tracking.pageName()+" (us)";
+s.channel="www.us.ip"
+
+
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)</script>
+<!-- End SiteCatalyst code version: H.8. -->
+</div>
+	<nav id="productheader" data-hires="true">
+	<h2><a href="/web/20121228072100/http://www.apple.com/iphone/"><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/images/product_title.png" alt="iPhone" width="95" height="29"/></a></h2>
+	<ul>
+		<li id="pn-features"><a href="/web/20121228072100/http://www.apple.com/iphone/features/">Features</a></li>
+		<li id="pn-design"><a href="/web/20121228072100/http://www.apple.com/iphone/design/">Design</a></li>
+		<li id="pn-built-in-apps"><a href="/web/20121228072100/http://www.apple.com/iphone/built-in-apps/">Built-in Apps</a></li>
+		<li id="pn-from-the-app-store"><a href="/web/20121228072100/http://www.apple.com/iphone/from-the-app-store/">From the App Store</a></li>
+		<li id="pn-ios"><a href="/web/20121228072100/http://www.apple.com/iphone/ios/">iOS</a></li>
+		<li id="pn-icloud"><a href="/web/20121228072100/http://www.apple.com/iphone/icloud">iCloud</a></li>
+		<li id="pn-specs"><a href="/web/20121228072100/http://www.apple.com/iphone/specs.html">Tech Specs</a></li>
+	
+	
+		<li><a class="buynows" href="http://web.archive.org/web/20121228072100/http://store.apple.com/go/iphone">Buy iPhone 5 Now</a></li>
+	
+	</ul>
+</nav>
+
+
+	<div id="main">
+		<div class="content" id="content" data-hires="true">
+			<header id="hero" class="row flushpad gallery autogallery autogallery-video" data-track-visitor-engagement="">
+				<div id="hero-video" class="gallery-view">
+					<div id="hero-video-default" class="grid2col relative gallery-content">
+						<div class="column first">
+							<hgroup>
+								<h1><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/hero_title.png" alt="So much more than before. And so much less, too." width="371" height="171"/></h1>
+								<h2 class="intro">A remarkably slim design that still makes room for a larger display and a faster chip. Ultrafast wireless that doesn’t sacrifice battery life. And all-new headphones designed to sound great and fit comfortably. So much went into this iPhone. So you could get even more out of it.</h2>
+							</hgroup>
+							<a href="/web/20121228072100/http://www.apple.com/iphone/includes/videos/design.html#video" class="video-thumb block hero-video">
+								<i class="round">
+									<span class="play"></span>
+									<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/hero_video_thumb.jpg" alt="" width="221" height="123"/>
+								</i>
+								<span class="link">Watch the iPhone 5 video</span>
+							</a>
+						</div><!--/column first-->
+						
+						<div class="column last">
+							<!--[if gte IE 9]><noscript><style type="text/css">#ac-masked-img-hero-image {background-image:url(http://images.apple.com/iphone/features/images/hero_image.png);}</style></noscript><![endif]-->
+							<canvas data-image-src="http://images.apple.com/iphone/features/images/hero_image.jpg" data-mask-src="http://images.apple.com/iphone/features/images/hero_image_mask.png" data-fallback-src="http://images.apple.com/iphone/features/images/hero_image.png" width="496" height="898" id="ac-masked-img-hero-image" class="ac-masked-img row-image">
+								<noscript>
+									<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/hero_image.png" alt="" width="496" height="898" class="row-image"/>
+								</noscript>
+							</canvas>
+						</div><!--/column last-->
+					</div>
+				</div>
+			</header><!--/hero-->
+
+			<section id="design" class="row grid2col" data-track-visitor-engagement="">
+				<div class="column first">
+					<h1><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/design_title.png" alt="All-new design. The thinnest, lightest, fastest iPhone ever." width="271" height="177"/></h1>
+
+					<h4>Thin, sleek, and very capable.</h4>
+					<p>It’s hard to believe a phone so thin could offer so many features: a larger display, a faster chip, the latest wireless technology, an 8MP iSight camera, and more. All in a beautiful aluminum body designed and made with an unprecedented level of precision. iPhone 5 measures a mere 7.6 millimeters thin and weighs just 112 grams.<sup>1</sup> That’s 18 percent thinner and 20 percent lighter than iPhone 4S. The only way to achieve a design like this is by relentlessly considering (and reconsidering) every single detail — including the details you don’t see. <a href="/web/20121228072100/http://www.apple.com/iphone/design/" class="more">Learn more about the design of iPhone 5</a></p>
+				</div><!--/column first-->
+
+				<div class="column last">
+
+					<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/design_image.jpg" alt="" width="439" height="728" class="row-image relative right flushright"/>
+
+					<aside id="design-counter" class="pullout chart" data-hires="false" role="list">
+						<div id="counter-thinner" class="counter-container relative">
+							<div class="counter" role="presentation">
+								<div class="number relative"></div>
+							</div>
+							<div class="description" aria-label="18% thinner" role="listitem">Thinner</div>
+						</div>
+
+						<div id="counter-lighter" class="counter-container relative">
+							<div class="counter" role="presentation">
+								<div class="number relative"></div>
+							</div>
+							<div class="description" aria-label="20% lighter" role="listitem">Lighter</div>
+						</div>
+
+						<div id="counter-volume" class="counter-container relative">
+							<div class="counter" role="presentation">
+								<div class="number relative"></div>
+							</div>
+							<div class="description" aria-label="12% less volume" role="listitem">Less Volume</div>
+						</div>
+					</aside><!--/column first-->
+
+
+				</div><!--/column last-->
+			</section><!--/design-->
+
+
+
+			<section id="display" class="row no-top-padding" data-track-visitor-engagement="">
+				<div class="parallax-wrapper">
+					<figure class="parallax track-background flushleft flushright"></figure>
+				</div>
+
+				<div class="grid2colc">
+					<div class="column first">
+						<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/display_image.jpg" alt="" width="204" height="781" class="row-image relative"/>
+					</div><!--/column first-->
+
+					<div class="column last grid2colb">
+						<div class="column first">
+							<h1><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/display_title.png" alt="4-inch Retina display. It’s not just bigger. It’s just right." width="482" height="85"/></h1>
+							
+							<h4>More display means more to see.</h4>
+							<p>Anyone can make a larger smartphone display. But if you go large for large’s sake, you end up with a phone that feels oversize, awkward, and hard to use. iPhone 5 features a 4-inch display designed the right way: it’s bigger, but it’s the same width as iPhone 4S. So everything you’ve always done with one hand — typing on the keyboard, for instance — you can still do with one hand. On a larger canvas that lets you see more of every web page. More of your inbox. More events on your calendar. Even more apps on your Home screen.</p>
+							
+							<h4>It’s more vibrant, too.</h4>
+							<p>This isn’t just a larger display. It’s a larger Retina display. At 326 pixels per inch, it has a pixel density so high your eye can’t distinguish individual pixels. And as stunning as the Retina display is on the iPhone 4S, this one gives you 18 percent more pixels for an impressive 1136-by-640 resolution. Colors get a boost, too, with color saturation that’s 44 percent greater than before. So with iPhone 5, the games you play, the words you read, the images you see, and the apps you love look and feel incredibly vivid and lifelike. For big-time entertainment, iPhone 5 lets you watch widescreen HD video in all its glory — without letterboxing.</p>
+							
+							<aside class="pullout border-top grid2cola">
+								<div class="column first">
+									<p>iPhone 5 is nearly 9 millimeters taller than iPhone 4S, but it’s the same width. So it’s just as easy to type with one hand.</p>
+								</div><!--/column first-->
+
+								<div class="column last">
+									<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/display_comparison.jpg" alt="" width="105" height="188"/>
+								</div><!--/column last-->
+							</aside><!--/pullout-->
+						</div><!--/column first-->
+					</div><!--/column last grid2colb-->
+				</div><!--/grid2colc-->
+			</section><!--/display-->
+
+
+			
+			<section id="wireless" class="row no-top-padding" data-track-visitor-engagement="">
+			
+				<figure id="pindrop" class="parallax flushleft flushright"></figure>
+
+				<h1><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/wireless_title.png" alt="Ultrafast wireless. Connect to fast data networks. The world over." width="716" height="85" class="center"/></h1>
+				<div class="grid2col">
+					<div class="column first">
+					
+						<h4>LTE. The right way.</h4>
+						<p>You rely on your iPhone. So a thin, light design and outstanding battery life are important to you. But so is a fast data connection. LTE wireless technology is built for speed, but adding it to a phone can create bulk and drain battery life quickly. iPhone 5 does LTE the right way — optimized for better battery life and designed for ultrafast connectivity in a thin profile. The very things you want most from your smartphone.<sup>2</sup></p>
+					
+						
+						<h4>Next-generation cellular and wireless connectivity.</h4>
+						<p>iPhone 5 supports more networks all over the world. That includes advanced networks such as HSPA, HSPA+, and DC-HSDPA. Browse, download, and stream content at ultrafast speeds. Dual-band 802.11n wireless connectivity accelerates your Wi-Fi experience, too — up to 150 Mbps.<sup>3</sup></p>
+					</div><!--/column first-->
+
+					
+					<div class="column last">
+						<!-- When populating these bar chart numbers, ensure that they match the key and the fallback image. -->
+						<!-- The string inside the aria-label attribute will be available to VoiceOver users, and the data-chart-value attribute will be used to build the chart. -->
+						<figure id="wireless-chart" class="relative right">
+							<div class="bars-container">
+								<ul class="bars" role="list">
+									<li class="bar-one" data-chart-value=".04" aria-label="GPRS: .04 Mbps" role="listitem"></li>
+									<li class="bar-two" data-chart-value=".38" aria-label="EDGE: .38 Mbps" role="listitem"></li>
+									<li class="bar-three" data-chart-value="3.1" aria-label="EV-DO: 3.1 Mbps" role="listitem"></li>
+									<li class="bar-four" data-chart-value="14.4" aria-label="HSPA: 14.4 Mbps" role="listitem"></li>
+									<li class="bar-five blue-light" data-chart-value="21" aria-label="HSPA+: 21 Mbps" role="listitem"></li>
+									<li class="bar-six blue-med" data-chart-value="42" aria-label="DC-HSPDA: 42 Mbps" role="listitem"></li>
+									<li class="bar-seven blue-full" data-chart-value="100" aria-label="LTE: 100 Mbps" role="listitem"></li>
+								</ul>
+							</div>
+							<div class="lines-container"></div>
+						</figure>
+					</div><!--/column last-->
+					
+				</div><!--/grid2col-->
+
+			</section><!--/wireless-->
+
+
+
+			<section id="chip" class="row no-top-padding" data-track-visitor-engagement="">
+				<div class="parallax-wrapper">
+					<figure class="parallax flushleft flushright" id="imovie-sequence"></figure>
+				</div>
+
+				<h1><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/chip_title.png" alt="A6 chip. Performance and graphics up to twice as fast. With battery life to spare." width="704" height="132" class="center"/></h1>
+				
+				<div class="grid2cola">
+					<div class="column first">
+						<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/chip_image.jpg" alt="" width="136 " height="77" class="right row-image relative"/>
+						<h4>Faster CPU performance.</h4>
+						<p>With the new A6 chip, just about everything you do on iPhone 5 is noticeably faster — up to twice as fast compared with the A5 chip. So apps launch, web pages load, and email attachments appear almost instantly.</p>
+						
+						<h4>Faster graphics.</h4>
+						<p>The A6 chip also offers graphics performance that’s up to twice as fast as the A5. So you can power through graphics-intensive apps and games. And enjoy higher frame rates for smoother, more realistic gameplay.</p>
+						
+						<h4>Even better battery life.</h4>
+
+						<p>Not only is the A6 chip custom designed to be fast, it’s custom designed to work with iOS 6 to be extremely power efficient. So even at its accelerated speed, iPhone 5 has more than enough battery power to last throughout the day — up to 8 hours of browsing on a cellular connection, up to 8 hours of talk time, and up to 10 hours of video playback time.<sup>4</sup></p>
+
+					</div><!--/column first-->
+
+					<div class="column last">
+
+						<aside id="chip-counter" class="pullout chart relative" data-hires="false" role="list">
+						
+							<div class="counter-container-wrapper">
+								<div id="counter-browsing-time" class="counter-container">
+									<div class="counter relative" role="presentation">
+										<div class="number"></div>
+									</div>
+									<div class="description" aria-label="8 hours LTE browsing time" role="listitem">LTE Browsing Time</div>
+								</div>
+							</div>
+						
+
+							<div class="counter-container-wrapper">
+								<div id="counter-talk-time" class="counter-container">
+									<div class="counter relative" role="presentation">
+										<div class="number relative"></div>
+									</div>
+									<div class="description relative" aria-label="8 hours talk time" role="listitem">Talk Time</div>
+								</div>
+							</div>
+
+							<div class="counter-container-wrapper counter-video-time">
+								<div id="counter-video-time" class="counter-container">
+									<div class="counter relative" role="presentation">
+										<div class="number"></div>
+									</div>
+									<div class="description" aria-label="10 hours video playback time" role="listitem">Video Playback Time</div>
+								</div>
+							</div>
+						</aside>
+
+					</div><!--/column last-->
+
+				</div><!--/grid2cola-->
+			</section><!--/chip-->
+
+
+
+			<section id="earpods" class="row no-top-padding gallery autogallery autogallery-video" data-track-visitor-engagement="">
+				<figure class="parallax flushleft flushright"></figure>
+
+				<div id="earpods-video" class="gallery-view">
+					<div id="earpods-video-default" class="relative gallery-content">
+						<h1><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/earpods_title.png" alt="All-new EarPods. Completely re-engineered from the sound up." width="689" height="85" class="center"/></h1>
+						<div class="grid2col">
+							<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/earpods_image.jpg" alt="" width="1052" height="351" class="row-image relative"/>
+
+							<div class="column first">
+								<h4>A breakthrough for ears everywhere.</h4>
+								<p>Just like fingerprints, ears are unique parts of the body. Which means earbud headphones fit differently on everyone. So rather than use the speaker as the starting point for new headphones, Apple designers and engineers started with the ear. They tested over a hundred prototype designs on hundreds of people. All with the goal of creating earbuds that rest comfortably inside — and stay inside — a variety of ear types, while also producing quality sound. The result is a breakthrough for earbud headphones: Apple EarPods. They’re unlike anything you’ve ever seen or heard. <a href="/web/20121228072100/http://www.apple.com/iphone/includes/videos/earpods.html#video" class="earpods-video more">Watch the EarPods video</a></p>
+							</div><!--/column first-->
+							<div class="column last">
+								<h4>Enhanced audio on iPhone 5.</h4>
+								<p>Apple EarPods are just the beginning of the improved audio experience on iPhone 5. It’s designed with three microphones: one on the front, one on the back, and one on the bottom. The front and back mics work together to achieve beamforming — a technique that helps iPhone focus on sound from the desired location for clearer audio. New noise-canceling technology reduces background noise. So when you hold iPhone up to your ear in a loud room, you hear what matters most: the voice on the other end.</p>
+							</div><!--/column last-->
+						</div><!--/grid2col-->
+					</div><!--/gallery-content-->
+				</div><!--/earpods-video-->
+			</section><!--/earpods-->
+
+
+
+			<section id="camera" class="row no-top-padding" data-track-visitor-engagement="">
+				<figure class="parallax flushleft flushright"></figure>
+
+				<h1><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/camera_title.png" alt="iSight camera. The world’s most popular camera now captures more of the world." width="705" height="85" class="center"/></h1>
+				
+				<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/camera_image.jpg" alt="" width="977" height="392" class="row-image"/>
+				
+				<div class="grid2col">
+					<div class="column first">
+						<h4>Panorama.</h4>
+						<p>iPhone is the most popular camera in the world. For good reason. Photos look so stunning, it’s hard to believe they were taken with a mobile phone. And everything that made the iSight camera in iPhone 4S the world’s favorite is now on iPhone 5 — and then some. The new panorama feature lets you capture everything from a family reunion group photo to a jaw-dropping shot of the Grand Canyon. With one smooth motion you can shoot up to an impressive 240 degrees. The gyroscope, A6 chip, and Camera app work together to create one seamless, high-resolution panorama up to 28 megapixels.</p>
+						<h4>Even better features.</h4>
+						<p>The Camera app also features improvements including 40 percent faster photo capture, better low-light performance, and improved noise reduction. So you can snap more shots with more detail and clarity than ever before. <a href="/web/20121228072100/http://www.apple.com/iphone/gallery/" class="more">View photos taken with iPhone 5</a></p>
+					</div><!--/column first-->
+				
+					<div class="column last">
+						<h4>Enhanced HD video recording.</h4>
+						<p>Imagine sidesplitting, adventure-filled, must-see flicks produced by you and shot on iPhone 5. Record stunning 1080p HD video with the iSight camera. Improved video stabilization helps prevent shaky footage. Face detection for up to 10 faces means everyone can have a moment in the spotlight. You can even take still photos as you record, so you can capture small moments while shooting a big one.</p>
+				
+						<h4>FaceTime HD camera.</h4>
+						<p>You use the front-facing camera on iPhone 5 to make FaceTime video calls. And now those calls can happen over a cellular connection if Wi-Fi isn’t available.<sup>5</sup> The quality of FaceTime video calls is so surprising, it’s as if you’re in the same room with whoever’s on the other end. You can also use the front camera for taking self-portraits or recording 720p HD video.</p>
+					</div><!--/column last-->
+				</div><!--/grid2col-->
+			</section><!--/camera-->
+
+
+
+			<section id="lightning" class="row no-top-padding flushright padright" data-track-visitor-engagement="">
+				<div class="parallax-wrapper">
+					<figure class="parallax flushleft flushright"></figure>
+				</div>
+
+				<h1><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/lightning_title.png" alt="All-new Lightning connector. Smart. Durable. Reversible." width="561" height="80" class="center"/></h1>
+				<div class="grid2cola">
+					<div class="column first">
+						<h4>A new way to get connected.</h4>
+						<p>Making iPhone 5 thinner and lighter required a pivotal change: replacing the 30-pin connector with something newer, smaller, and better. Introducing the Lightning connector. It features an all-digital, eight-signal design that’s significantly more durable than the 30-pin connector. Another brilliant feature of Lightning: It’s reversible. Which means there’s no wrong way to plug in the cable.</p>
+
+						<h4>Lightning to 30-pin Adapter.</h4>
+						<p>Soon many iPhone accessories will be Lightning compatible. But if you have one that depends on the 30-pin connector, you can still connect it to your iPhone 5. Simply use a Lightning to <span class="nowrap">30-pin Adapter</span> (sold separately).</p>
+					</div><!--/column first-->
+				</div><!--/grid2cola-->
+			</section><!--/lightning-->
+
+
+
+			<section id="maps" class="row flushpad divider-down divider-up" data-hires="false" data-track-visitor-engagement="">
+				<h1 class="headline-icon" data-hires="true">
+					<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/maps_icon.png" alt="" width="100" height="87" class="center icon"/>
+					<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/maps_title.png" alt="Maps. Take a turn for the better." width="486" height="44" class="center"/>
+				</h1>
+				
+				<div data-hires="true">
+					<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/maps_image.png" alt="" width="845" height="489" class="row-image three-up center"/>
+				</div>
+				
+				<div class="narrow">
+					<h4>Maps designed by Apple.</h4>
+					<p>The new Maps app gives you a better way to find your way. Map elements are vector based, which means graphics and text are incredibly sharp, even when you zoom in. Pan around, and you’ll instantly notice how smooth and responsive Maps is. Need directions from Point A to Point B? Maps not only shows you how to get there, it tells you — out loud, turn by turn. Maps also gives you real-time traffic information and reroutes you to avoid delays. For a completely new perspective, switch to Flyover and explore major metro areas from above with photo-realistic, interactive 3D views.<sup>6</sup> <a href="/web/20121228072100/http://www.apple.com/ios/maps/" class="more">Learn more about Maps</a></p>
+				</div>
+			</section><!--/maps-->
+
+
+
+			<section id="siri" class="row" data-track-visitor-engagement="">
+				<h1 class="headline-icon">
+					<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/siri_icon.png" alt="" width="100" height="90" class="center icon"/>
+					<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/siri_title.png" alt="Siri. Even more of what you’re asking for." width="621" height="40" class="center"/>
+				</h1>
+				
+				<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/siri_image.jpg" alt="" width="845" height="489" class="row-image three-up center"/>
+				
+				<div class="grid2col">
+					<div class="column first">
+						<h4>Just ask Siri.</h4>
+						<p>Siri is the intelligent assistant that helps you get things done, just by asking. Talk to Siri as you would to a person: “Do I need an umbrella?” or “Any modern art museums around here?” or “Where’s the closest ATM?” Siri not only understands what you say, it knows what you mean. It figures out the right apps to use to find the right answer. Then, just like a personal assistant, Siri provides you with the information you need.<sup>7</sup></p>
+					</div><!--/column first-->
+					<div class="column last">
+						<h4>New Siri features.</h4>
+						<p>With iOS 6, Siri understands more questions, knows more answers, and gives you a lot more to talk about. Ask Siri about sports scores and stats, where to eat, what movies to see — even ask Siri to make Facebook posts or tweet for you. And Siri is fluent in more languages, so it does more things in more countries. <a href="/web/20121228072100/http://www.apple.com/ios/siri/" class="more">Learn more about Siri</a></p>
+					</div><!--/column last-->
+				</div><!--/grid2col-->
+			</section><!--/siri-->
+
+
+
+			<section id="ios6" class="row flushpad divider-down divider-up" data-hires="false" data-track-visitor-engagement="">
+				<h1 class="headline-icon" data-hires="true">
+					<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/ios6_icon.png" alt="" width="100" height="90" class="center icon"/>
+					<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/ios6_title.png" alt="iOS 6. The world’s most advanced mobile operating system." width="514" height="85" class="center"/>
+				</h1>
+				
+				<div data-hires="true">
+					<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/ios6_image.png" alt="" width="845" height="489" class="row-image three-up center"/>
+				</div>
+				
+				<div class="narrow">
+					<h4>The foundation of iPhone.</h4>
+					<p>At the core of every iPhone, iPad, and iPod touch is iOS. It includes all the built-in apps you use every day and all the intuitive technology — like Multi-Touch and Siri — that makes iPhone so advanced.<sup>7</sup> With every free iOS update comes even more capability for your devices. You’ll find the latest version, iOS 6, already installed on iPhone 5. So right out of the box, you get more than 200 new features to make the things you do every day even better. <a href="/web/20121228072100/http://www.apple.com/iphone/ios/" class="more">Learn more about iOS</a></p>
+				</div>
+			</section><!--/ios6-->
+
+
+
+			<section id="icloud" class="row" data-track-visitor-engagement="">
+				<h1 class="headline-icon">
+					<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/icloud_icon.png" alt="" width="100" height="90" class="center icon"/>
+					<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/icloud_title.png" alt="iCloud. Your content. On all your devices." width="625" height="39" class="center"/>
+				</h1>
+				
+				<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/icloud_image.jpg" alt="" width="934" height="448" class="row-image relative"/>
+				
+				<div class="narrow">
+					<h4>Everything you need. Everywhere you go.</h4>
+					<p>iCloud is built right into iPhone 5. Just turn it on and you’ll have instant access to all the things you need, whether you’re on your iPhone, iPad, iPod touch, Mac, or PC.<sup>8</sup> New features in iOS 6 let you do even more with iCloud. Share the photos you want with the people you choose using Shared Photo Streams. Locate, lock, and recover your misplaced phone easier than ever with Find My iPhone. Browse a web page on one device and pick up where you left off on another device using iCloud Tabs. And that’s just for starters. <a href="/web/20121228072100/http://www.apple.com/iphone/icloud/" class="more">Learn more about iCloud</a></p>
+				</div>
+			</section><!--/icloud-->
+
+
+
+			<div class="row flushpad divider-down multi-section">
+				<div class="grid2col narrow features-page" data-track-visitor-engagement="apps">
+					<section id="built-in-apps" class="column first">
+						<h1><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/builtinapps_title.png" alt="Built-in Apps" width="197" height="39"/></h1>
+						<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/builtinapps_image.png" alt="" width="430" height="330" class="row-image relative"/>
+
+						<p>iPhone 5 is a remarkable device. The same goes for the apps that come with it. Because they achieve the perfect balance of everything you need to do with everything you want to do — from emailing your boss to filming your road trip — on the large, 4-inch Retina display. <a href="/web/20121228072100/http://www.apple.com/iphone/built-in-apps/" class="more">Learn more about built-in apps on iPhone 5</a></p>
+
+					</section><!--/built-in-apps-->
+	
+	
+	
+					<section id="from-the-app-store" class="column last">
+						<h1><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/fromtheappstore_title.png" alt="From the App Store" width="304" height="39"/></h1>
+						<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/fromtheappstore_image.png" alt="" width="430" height="330" class="row-image relative"/>
+						<p>There are over 700,000 apps available from the App Store — many of them free — to make iPhone more capable, more indispensable, and more fun.<sup>9</sup> Sign in to the App Store with your Apple ID, browse lots of categories, and download any app you want. <a href="/web/20121228072100/http://www.apple.com/iphone/from-the-app-store/" class="more">Learn more about apps for iPhone 5</a></p>
+					</section><!--/from-the-app-store-->
+				</div>
+
+				<div class="grid2col narrow" data-track-visitor-engagement="airplay-airprint">
+					<section id="airplay" class="column first">
+						<h1><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/airplay_title.png" alt="AirPlay" width="106" height="39"/></h1>
+						<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/airplay_image.jpg" alt="" width="424" height="302" class="row-image relative"/>
+						<p>Put what’s on your iPhone on your HDTV. AirPlay wirelessly streams content from your iPhone to Apple TV, so you can watch it on the big screen.<sup>10</sup> Turn on AirPlay Mirroring, and whatever you do on your iPhone — tapping and scrolling, playing a game, even typing — appears on your HDTV at the same time. <a href="/web/20121228072100/http://www.apple.com/airplay/" class="more">Learn more about AirPlay on iPhone 5</a></p>
+					</section><!--/airplay-->
+	
+	
+	
+					<section id="airprint" class="column last">
+						<h1><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/airprint_title.png" alt="AirPrint" width="114" height="39"/></h1>
+						<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/airprint_image.jpg" alt="" width="390" height="242" class="row-image relative"/>
+						<p>Print right from your iPhone over Wi-Fi with AirPrint. There’s no software to download, no drivers to install, and no cables to connect. With just a few taps in Mail, Photos, Safari, or iBooks, you can send whatever’s onscreen to an AirPrint-enabled printer.</p>
+					</section><!--/airprint-->
+				</div><!--/grid2col-->
+			</div><!--/grid2col-->
+
+
+
+			<section id="applecare" class="row" data-track-visitor-engagement="">
+				<div class="gradient-divider-up">
+					<div class="grid2cola">
+						<div class="column first">
+							<h1><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/applecare_title.png" alt="Protection for your iPhone" width="383" height="37"/></h1>
+	
+							<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/features/images/applecare_icon.jpg" alt="" width="86" height="86" class="left"/>
+							<p>Every iPhone comes with one year of hardware repair coverage and 90 days of telephone technical support. AppleCare+ for iPhone extends repair coverage and technical support to two years from the original purchase date of your iPhone and adds accidental damage protection for your iPhone.<sup>11</sup></p>
+						</div><!--/column first-->
+					</div><!--/grid2cola-->
+				</div><!--/gradient-divider-up-->
+			</section><!--/applecare-->
+
+			<aside id="buystrip" class="relative selfclear">
+	<ul class="grid4col">
+		<li class="block column first">
+			<a href="/web/20121228072100/http://www.apple.com/iphone/compare-iphones/">
+				<h2>
+					<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/images/buystrip_compare_title.png" alt="iPhone 5. From $199." width="143" height="60" class="center block"/>
+					<img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/images/buystrip_compare.jpg" alt="" width="110" height="125" class="center block"/>
+				</h2>
+				<em class="more cta">Compare iPhone models</em>
+				<p class="sosumi">*Qualified customers only.</p>
+			</a>
+		</li><!--/column first-->
+
+
+		
+
+<li class="block column">
+			<a href="http://web.archive.org/web/20121228072100/http://store.apple.com/go/iphone">
+				<h2><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/images/buystrip_aos.png" alt="Shop Online" width="127" height="104" class="center"/></h2>
+				<p>Order your iPhone online and get it delivered to your door. It ships free and ready to use.</p>
+				<em class="more cta">Buy iPhone 5</em>
+			</a>
+		</li><!--/column-->
+
+		<li class="block column">
+			<a href="/web/20121228072100/http://www.apple.com/retail/iphone/">
+				<h2><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/images/buystrip_retail.png" alt="Visit a store." width="123" height="104" class="center"/></h2>
+				<p>Buy iPhone at the Apple Retail Store and we’ll activate it and set it up just the way you want.</p>
+				<em class="more cta">Find a store</em>
+			</a>
+		</li><!--/column-->
+
+		<li class="column last">
+			<h2><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/images/buystrip_phone.png" alt="Call Apple." width="108" height="104" class="center"/></h2>
+			<p>Get answers about iPhone and rate plans before you buy. Talk with a knowledgeable Specialist.</p>
+			<em class="cta">1-800-MY-APPLE</em>
+		</li><!--/column last-->
+	</ul>
+
+	
+
+
+
+
+<div class="gradient">
+		<a href="http://web.archive.org/web/20121228072100/http://itunes.apple.com/us/app/apple-store/id375380948?mt=8" class="block app-store">
+			<img class="left" src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/iphone/images/buystrip_applestoreapp_icon.png" alt="" width="34" height="34"/>
+			<p>Use the Apple Store app to shop, make appointments, and more. <em class="more">Download now</em></p>
+		</a>
+	</div><!--/grid2col-->
+</aside><!--/buystrip-->
+
+
+		</div><!--/content-->
+	</div><!--/main-->
+	
+	<div class="sosumi">
+		<ol>
+			<li>Weight varies by configuration and manufacturing process.</li>
+			<li>LTE is available in select markets and through select carriers. Check with your carrier for details. Speeds will vary based on site conditions.</li>
+			<li>Based on theoretical peak speeds. Actual speeds will be lower.</li>
+			<li>Battery life varies by use and configuration; see <a href="http://web.archive.org/web/20121228072100/http://www.apple.com/batteries">www.apple.com/batteries</a> and <a href="http://web.archive.org/web/20121228072100/http://www.apple.com/iphone/battery.html">www.apple.com/iphone/battery.html</a> for more information.</li>
+			<li>FaceTime video calling requires a FaceTime-enabled device for the caller and recipient and a Wi-Fi connection. Availability over a cellular network depends on carrier policies; data charges may apply.</li>
+			<li>Some features may not be available in all countries or all areas. Cellular data charges may apply.</li>
+			<li>Siri is available in Beta only on iPhone 4S, iPhone 5, iPad (3rd generation), and iPod touch (5th generation) and requires Internet access. Siri may not be available in all languages or in all areas, and features may vary by area.  Cellular data charges may apply.</li>
+			<li>iCloud requires iOS 5 or later on iPhone 3GS or later, iPod touch (3rd generation or later), or iPad; a Mac computer with OS X Lion or later; or a PC with Windows Vista or Windows 7 (Outlook 2007 or 2010 or an up-to-date browser is required for accessing email, contacts, and calendars). Some features require iOS 6 and OS X Mountain Lion. Some features require a Wi-Fi connection. Some features are not available in all countries. Access to some services is limited to 10 devices.</li>
+			<li>App count refers to the total number of apps worldwide.</li>
+			<li>AirPlay is compatible with the second-generation Apple TV or later.</li>
+			<li>AppleCare+ for iPhone provides coverage for up to two incidents of accidental damage from handling. Each incident is subject to a $49 service fee plus applicable tax.</li>
+		</ol>
+		<ul>
+			<li>Some features may not be available for all countries or all areas. <a href="/web/20121228072100/http://www.apple.com/ios/feature-availability/">Click here to see complete list.</a></li>
+			<li>Some features, applications, and services are not available in all areas. See your carrier for details. Application availability and pricing are subject to change.</li>
+			<li>Starbucks pass is coming soon.</li>
+			<li>The Transamerica Pyramid Building is a registered service mark of Transamerica Corporation.</li>
+			<li>Major League Baseball trademarks and copyrights are used with the permission of MLB Advanced Media, L.P. All rights reserved.</li>
+			<li><strong><a href="http://web.archive.org/web/20121228072100/http://itunes.apple.com/us/movie/prometheus/id547496947"><em>Prometheus</em></a></strong> will be available on iTunes beginning September 18, 2012. <strong><a href="http://web.archive.org/web/20121228072100/http://itunes.apple.com/us/movie/prometheus/id547496947"><em>Prometheus</em></a></strong> © 2012 Twentieth Century Fox Film Corporation. All rights reserved.</li>
+		</ul>
+	</div>
+
+	<footer id="globalfooter">
+		<div id="breadory">
+			<ol id="breadcrumbs">
+				<li class="home"><a href="/web/20121228072100/http://www.apple.com/">Home</a></li>
+				<li><a href="/web/20121228072100/http://www.apple.com/iphone/">iPhone</a></li>
+				<li>Features</li>
+			</ol>
+			<!--googleoff: all-->
+<div id="directorynav" class="iphone">
+	<div id="dn-cola" class="column first">
+		<h3>About iPhone 5</h3>
+		<ul>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/features/">Features</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/design/">Design</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/built-in-apps/">Built-in Apps</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/from-the-app-store/">From the App Store</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/ios/">iOS</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/icloud/">iCloud</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/specs.html">Tech Specs</a></li>
+		</ul>
+	</div>
+	<div id="dn-colb" class="column">
+		<h3>More iPhone</h3>
+		<ul>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/iphone-4s/specs.html">iPhone 4S Tech Specs</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/iphone-4/specs.html">iPhone 4 Tech Specs</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/compare-iphones/">Compare iPhone models</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/iphone-5/tips/">Tips and Tricks</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/education/ipodtouch-iphone/">iPhone in Education</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/students/ipodtouch-iphone/">iPhone for Students</a></li>
+			<li><a href="http://web.archive.org/web/20121228072100/http://developer.apple.com/programs/ios/">iOS for Developers</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/accessibility/iphone/vision.html">Accessibility</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/product-red/">(PRODUCT) RED</a></li>
+		</ul>
+	</div>
+	<div id="dn-colc" class="column">
+		<h3>iPhone in Business</h3>
+		<ul>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/business/">Overview</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/business/apps/">Apps</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/business/ios/">iOS</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/business/it-center/">IT Center</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/business/profiles/">Profiles</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/business/get-started/">Get Started</a></li>
+		</ul>
+	</div>
+	<div id="dn-cold" class="column">
+		<h3>Support</h3>
+		<ul>
+			<li><a href="/web/20121228072100/http://www.apple.com/iphone/buy/">Where to buy iPhone</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/support/iphone/">Online Support</a></li>
+			<li><a href="http://web.archive.org/web/20121228072100/http://discussions.apple.com/category.jspa?categoryID=201">iPhone Discussions</a></li>
+			<li><a href="http://web.archive.org/web/20121228072100/http://support.apple.com/manuals/#iphone">User Guide (PDF)</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/retail/learn/">Workshops</a></li>
+			<li><a href="/web/20121228072100/http://www.apple.com/retail/learn/one-to-one/">One to One</a></li>
+		</ul>
+	</div>
+	<div class="capbottom"></div>
+</div> 
+<!--googleon: all-->
+		</div><!--/breadory-->
+		<p class="gf-buy">Shop the <a href="http://web.archive.org/web/20121228072100/http://store.apple.com/us">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="/web/20121228072100/http://www.apple.com/retail/">Apple Retail Store</a>, or find a <a href="/web/20121228072100/http://www.apple.com/buy/">reseller</a>.</p>
+
+<ul class="gf-links piped">
+	<li><a href="/web/20121228072100/http://www.apple.com/about/" class="first">Apple Info</a></li>
+	<li><a href="/web/20121228072100/http://www.apple.com/sitemap/">Site Map</a></li>
+	<li><a href="/web/20121228072100/http://www.apple.com/hotnews/">Hot News</a></li>
+	<li><a href="/web/20121228072100/http://www.apple.com/rss/">RSS Feeds</a></li>
+	<li><a href="/web/20121228072100/http://www.apple.com/contact/" class="contact_us">Contact Us</a></li>
+	<li><a href="/web/20121228072100/http://www.apple.com/choose-your-country/" class="choose"><img src="http://web.archive.org/web/20121228072100im_/http://images.apple.com/global/elements/flags/22x22/usa.png" alt="Choose your country or region" width="22" height="22" data-hires="true"/></a></li>
+</ul>
+
+<div class="gf-sosumi">
+	<p>Copyright © 2012 Apple Inc. All rights reserved.</p>
+	<ul class="piped">
+		<li><a href="/web/20121228072100/http://www.apple.com/legal/terms/site.html" class="first">Terms of Use</a></li>
+		<li><a href="/web/20121228072100/http://www.apple.com/privacy/">Privacy Policy</a></li>
+	</ul>
+</div>
+
+	</footer><!--/globalfooter-->
+</body>
+</html>
