@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head><!CDN-Links>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/pintsize.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.6/interact.min.js"></script>
+<link href="css/material-click.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/material-click.js"></script>
+</head>
+<body style="background-color:#f5f5f5;
+    height:100%;width:100%;padding:0;margin:0;
+    font-family:Roboto, sans-serif;"><!-BODY>
+    <!-TOPBAR>
+<div class="topbar" style="background-color:#fff; width:100%;height:60px;position:fixed;top:0; box-shadow: 0 0 30px rgba(7, 51, 84, 0.17);">
+<p style="color:#000;"><a href="#" style="text-decoration:none; top:20px;position:relative;left:30px; a:hover{color:#ddd;} color:#000 !important;"><img src="icons/back.svg" width="20px" height="20px"></a></p><span>
+<center><p><a href="#" style="text-decoration:none;position:fixed;top:15px;"><img src="icons/addpage.svg" width="25px" height="25px"></a></p></center></span>
+<a href="preview.html" style="top:15px;position:fixed; right:25px;"><img src="icons/eye.svg" width="25px" height="25px"></a>
+</div>
+<!-ICON-DISPLAY-LAYOUT-SELECTION>
+<div class="flex" style="top:100px;left:175px;position:relative;">
+<div class="col col--3">
+<figure><div class="thumbnail"id="section1" style="width:260px !important; height:260px !important; position:absolute;" onclick="check('id')">
+</div></figure></div>
+<div class="col col--3">
+<div><figure><div class="thumbnail"id="section2" style="width:260px !important; height:260px !important;position:absolute;">
+</div></figure></div></div>
+<div class="col col--3">
+<div><figure><div class="thumbnail"id="section3" style="width:260px !important; height:260px !important;position:absolute">
+</div></figure></span></div>
+</div>
+<!-LAYOUT-TEMPLATES>
+<template id="layout1" style="top:30px;height:500px;width:500px;visibility:hidden;">
+  <div class="paragraph" style="padding-left:30px;">
+    <h3 contenteditable="true">Click to add content</h3>
+  </div>
+</template>
+<template id="cover" class="draggable">
+  <div class="blog-card box ripple-effect">
+    <script>
+
+    var template = document.querySelector('#layout');
+    document.getElementById('cover').appendChild(document.importNode(template.content, true));
+    </script>
+  </div>
+</template>
+<template id="cover2">
+  <div class="blog-card box ripple-effect">
+    <script>
+    var template = document.querySelector('#layout');
+    document.getElementById('cover2').appendChild(document.importNode(template.content, true));
+    </script>
+  </div>
+</template>
+<template id="cover3">
+  <div class="blog-card box ripple-effect">
+</div>
+</template>
+<script>
+var template = document.querySelector('#cover');
+document.getElementById('section1').appendChild(document.importNode(template.content, true));
+</script>
+<script>
+var template = document.querySelector('#cover2');
+document.getElementById('section2').appendChild(document.importNode(template.content, true));
+</script>
+<script>
+var template = document.querySelector('#cover3');
+document.getElementById('section3').appendChild(document.importNode(template.content, true));
+</script>
+<div id="bottombar" style="background-image;#d3d3d3;position:fixed;height:100px; width:100%;">
+</div>
+</div>
+<script>
+$('#hello').click(function(){
+  document.getElementById('main').innerHTML = document.getElementById('editor').innerHTML;
+});
+</script>
+
+
+<style>
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #f5f5f5;
+    box-shadow: none;
+    padding-bottom: 0;
+     overflow: auto;
+}
+.modal-content {
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+</style>
+<div id="myModal" class="modal" data-easein="bounceUpIn" style="-webkit-transition: width 2s; /* Safari */
+    transition: width 2s;">
+<div class="modal-content">
+<a href="#" style="top:15px;position:fixed; right:25px;"><img src="icons/close.svg" width="25px" height="25px"class="close"></a>
+<div id="bottombar" style="bottom:0;height:60px;width:100%;position:fixed; box-shadow: 0 0 30px rgba(7, 51, 84, 0.17);padding-bottom:0; background-color:#fff; border:0.5px">
+<a class="btn"href="#" style="bottom:15px;position:fixed !important; right:25px;" ><div id="loading"><div id="loading-text"><img src="icons/save.svg" width="25px" height="25px" onclick="Materialize.toast('I am a toast', 4000)" style="position:fixed !important;"></div></div></a>
+</div>
+<div id="content1" style="top:30px;height:500px;width:500px;">
+<div style="padding-left:30px;padding-top:30px;">
+    <div>
+    <h3 contenteditable="true" placeholder="click to add title">Click to add title</h3>
+  </div>
+  </div>
+  <div class="paragraph" style="padding-left:30px;">
+    <p contenteditable="true" placeholder="click to add content">Click to add title</p>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("section1");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  setTimeout(function(){  modal.style.display = "block";},500);
+
+}
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+  <script>
+  var element = document.getElementById('grid-snap'),
+    x = 0, y = 0;
+
+interact(element)
+  .draggable({
+    snap: {
+      targets: [
+        interact.createSnapGrid({ x: 30, y: 30 })
+      ],
+      range: Infinity,
+      relativePoints: [ { x: 0, y: 0 } ]
+    },
+    inertia: true,
+    restrict: {
+      restriction: element.parentNode,
+      elementRect: { top: 0, left: 0, bottom: 1, right: 1 },
+      endOnly: true
+    }
+  })
+  .on('dragmove', function (event) {
+    x += event.dx;
+    y += event.dy;
+
+    event.target.style.webkitTransform =
+    event.target.style.transform =
+        'translate(' + x + 'px, ' + y + 'px)';
+  });
+  </script>
+  <template id="content2" style="top:30px;height:500px;width:500px;visibility:hidden;">
+    </div>
+    <div class="paragraph" style="padding-left:30px;">
+      <h3 contenteditable="true">Click to add content</h3>
+    </div>
+  </template>
+  <template id="content3" style="top:30px;height:500px;width:500px;visibility:hidden;">
+    <div class="paragraph" style="padding-left:30px;">
+      <h3 contenteditable="true">Click to add content</h3>
+    </div>
+  </template>
+<!-ACTION-BUTTONS>
+  <div class="ui animated  positive button" tabindex="0" style="position:fixed;right:20px;bottom:20px;">
+  <div class="visible content">Publish</div>
+  <div class="hidden content">
+    <i class="right arrow icon"></i>
+  </div>
+</div>
+<script>
+var save=document.getElementById("save");
+save.onclick=function(){
+  Materialize.toast('I am a toast!', 4000) // 4000 is the duration of the toast
+}
+
+</body>
+</html>
